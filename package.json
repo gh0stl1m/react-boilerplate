@@ -1,11 +1,20 @@
 {
   "name": "react-boilerplate",
   "version": "0.1.0",
-  "description": "Boilerplate for a react application",
+  "description": "Boilerplate for react applications",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Santiago Sanchez Taborda<santiago.sanchez.t@gmail.com>",
-  "license": "ISC"
+  "author": "Santiago Sanchez Taborda <santiago.sanchez.t@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gh0stl1m/react-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/gh0stl1m/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/gh0stl1m/react-boilerplate#readme"
 }
