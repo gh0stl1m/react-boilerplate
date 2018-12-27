@@ -7,13 +7,16 @@ import '@babel/polyfill';
 
 // Components
 import MainApp from './components/MainApp';
+import ErrorBoundary from './components/ErrorBoundary';
 
 // Styles
 import './styles.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MainApp />
+    <ErrorBoundary>
+      <MainApp />
+    </ErrorBoundary>
   </React.StrictMode>,
   document.getElementById('app')
 );
