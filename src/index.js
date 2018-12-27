@@ -11,4 +11,9 @@ import MainApp from './components/MainApp';
 // Styles
 import './styles.css';
 
-ReactDOM.render(<MainApp />, document.getElementById('app'));
+ReactDOM.render(
+  <React.StrictMode>
+    <MainApp />
+  </React.StrictMode>,
+  document.getElementById('app')
+);
