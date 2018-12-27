@@ -21,16 +21,16 @@ class App extends Component {
         <button onClick={this.handleIncrease}>+</button>
         <button onClick={this.handleDecrease}>-</button>
         { (count > 10)
-            ? (
-                <React.Suspense fallback={null}>
-                  <Warning />
-                </React.Suspense>
-              )
-            : null
+          ? (
+            <React.Suspense fallback={null}>
+              <Warning />
+            </React.Suspense>
+          )
+          : null
         }
       </div>
     );
-  };
-};
+  }
+}
 
 export default App;

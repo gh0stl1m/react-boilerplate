@@ -34,4 +34,4 @@ module.exports = {
       fileName: 'assets-manifest.json',
     }),
   ]
-}
+};

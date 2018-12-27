@@ -1,5 +1,5 @@
 // External libraries
-const merge = require('webpack-merge')
+const merge = require('webpack-merge');
 
 // Base
 const baseConfig = require('./webpack.config.base');

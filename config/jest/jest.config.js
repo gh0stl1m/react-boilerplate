@@ -1,5 +1,4 @@
 // External libraries
-const path = require('path');
 
 module.exports = {
   collectCoverageFrom: ['src/**/*.{js,jsx}', '!src/index.js', '!src/components/index.js'],
